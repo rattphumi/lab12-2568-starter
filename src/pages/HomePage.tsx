@@ -136,7 +136,9 @@ export default function HomePage() {
                     size="sm"
                     onClick={() => deleteTask(task.id)}
                   >
-                    <IconTrash color="red" size={16} />
+                    <ActionIcon color="red" variant="transparent" size="xs">
+                      <IconTrash/>
+                    </ActionIcon>
                   </Button>
                 </Group>
               </Group>
